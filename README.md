@@ -1,11 +1,6 @@
 # 🚀 极简加解密工作台 (Advanced Crypto Tool)
 
 
-
-# 🚀 极简安全加解密工作台 (Advanced Crypto Tool) v4.0
-
-
-
 这是一个基于 Python 和 `CustomTkinter` 开发的高性能全能加解密桌面应用。本版本在原有基础上深度集成了**国密系列算法 (SM3/SM4)**、**数据混淆算法 (Hashids)**，并优化了多核暴力破解引擎。
 
 ---
@@ -80,5 +75,6 @@ pyinstaller --noconsole --onefile --collect-all customtkinter --name "极简安�
 ## ⚠️ 免责声明
 
 本工具仅用于个人学习和安全研究。请勿将此工具用于任何非法活动或未经授权的渗透测试。开发者不对因使用此工具导致的任何损失负责。
+
 
 
