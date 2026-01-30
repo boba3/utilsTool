@@ -38,12 +38,14 @@
 确保你的电脑已安装 Python 3.8+ 及以下库：
 ```bash
 pip install customtkinter pycryptodome
+```
 
 ---
 
 ### 运行主脚本
 ```bash
 python Advanced_Crypto_Tool.py
+```
 
 ---
 
@@ -51,6 +53,7 @@ python Advanced_Crypto_Tool.py
 ```bash
 pip install pyinstaller
 pyinstaller --noconsole --onefile --collect-all customtkinter --name "极简安全工作台" Advanced_Crypto_Tool.py
+```
 
 ---
 
@@ -69,3 +72,4 @@ pyinstaller --noconsole --onefile --collect-all customtkinter --name "极简安�
 ## ⚠️ 免责声明
 
 本工具仅用于个人学习和安全研究。请勿将此工具用于任何非法活动或未经授权的渗透测试。开发者不对因使用此工具导致的任何损失负责。
+
