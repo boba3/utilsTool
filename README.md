@@ -39,15 +39,20 @@
 ```bash
 pip install customtkinter pycryptodome
 
+---
+
 ### 运行主脚本
 ```bash
 python Advanced_Crypto_Tool.py
+
+---
 
 ### 打包
 ```bash
 pip install pyinstaller
 pyinstaller --noconsole --onefile --collect-all customtkinter --name "极简安全工作台" Advanced_Crypto_Tool.py
 
+---
 
 ## 📋 功能说明
 * **暴力破解限时逻辑
@@ -59,6 +64,8 @@ pyinstaller --noconsole --onefile --collect-all customtkinter --name "极简安�
 	* 导出: 支持将你日积月累生成的 “个人彩虹表” 导出为外部文件。
 	* 清洗: 建议在字典条目超过 10,000 条后执行一次清洗，以优化加载速度。
 	
+---
 
 ## ⚠️ 免责声明
+
 本工具仅用于个人学习和安全研究。请勿将此工具用于任何非法活动或未经授权的渗透测试。开发者不对因使用此工具导致的任何损失负责。
